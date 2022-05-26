@@ -1,0 +1,52 @@
+Установка и настройка сервера для СЭД.
+Порядок действий:
+Установка proxmox:
+	Создание usb флешки.
+		Правильная запись данных
+Копирование образов на диск\
+
+астра - установка настройка
+	Запись характеристик
+	Установка чистой системы без каких либо пакетов
+	Создание файлов для настройки сервера
+
+Настрока сети на чистом сервере
+cd /etc/network
+sudo cp /etc/network/interfaces /etc/intefaces.backup
+sudo nano interfaces
+
+iface eth0 inet static
+address 000.000.000.000
+netmask 000.000.000.000
+gateway 000.000.000.000 
+dns-nameservers 000.000.000.000 000.000.000.000
+auto eth0
+
+cd /etc
+sudo cp /etc/resolv.conf /etc/resolv.conf/backup
+sudo nano resolv.conf
+
+nameserver 000.000.000.000
+nameserver 000.000.000.000
+
+
+Дале нужно настроить репозитории.
+cd /etc/apt
+sudo cp /etc/apt/source.list /etc/apt/source.list.backup
+
+YANDEX расскоментируем, астра комментируем
+
+
+
+
+
+
+
+
+
+wind - установка настройка
+backup - настройка
+Учетные записи создание ограничений
+
+
+
