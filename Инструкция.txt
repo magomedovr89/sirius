@@ -10,7 +10,7 @@
 	Установка чистой системы без каких либо пакетов
 	Создание файлов для настройки сервера
 
-Настрока сети на чистом сервере
+Настройка сети на чистом сервере
 cd /etc/network
 sudo cp /etc/network/interfaces /etc/intefaces.backup
 sudo nano interfaces
